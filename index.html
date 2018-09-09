@@ -1,75 +1,113 @@
-<!DOCTYPE html>
-<html>
-  <body>
-    <div id="Main Heading">
-	  <h1 align=center> CV Farhan Atif</h1>
+	<!DOCTYPE html>
+	<html>
+		  <head>
+		  	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+		  	<meta charset="utf-8">
+	        <meta name="viewport" content="width=device-width, initial-scale=1">
+	        <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+	        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+	        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+		  	<link rel=stylesheet type="text/css" href="styles.css">
+		  	<style>
+					  	.dropdown {
+			    position: relative;
+			    display: inline-block;
+			}
+
+			.dropdown-content {
+			    display: none;
+			    position: absolute;
+			    background-color: pink;
+			    min-width: 160px;
+			    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+			    z-index: 1;
+			}
+
+			.dropdown:hover .dropdown-content {
+			    display: block;
+			}
+
+			.desc {
+			    padding: 15px;
+			    text-align: center;
+			}
+		    </style>
+		  </head>
+	  <body> 
+
+	    <div class="Main_Heading">
+		  <h1 align=center color=red> CV Farhan Atif</h1>
+		  </div>
+		<div class="Personal_Information">
+			  <h3><u> PERSONAL INFORMATION</u> </h3>
+			  <div class="dropdown">
+			  <img src="https://vignette.wikia.nocookie.net/ofibty/images/5/56/Insert-Photo-Here.jpg/revision/latest?cb=20130607022022" width=100 height=100 hspace=20>
+			  <div class="dropdown-content">
+			  	<img src="https://vignette.wikia.nocookie.net/ofibty/images/5/56/Insert-Photo-Here.jpg/revision/latest?cb=20130607022022" width=300 height=300 hspace=20>
+			  	<div class="desc">Muhammad Farhan Atif</div>
+			  </div>
+			</div>
+		    <p><strong> Name: &emsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &emsp;&emsp; </strong> Muhammad Farhan Atif<br>
+			<p><strong> Date of Birth: &nbsp;&nbsp;&nbsp; &emsp;  </strong> 17 December 1998<br>
+			<p><strong> Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &emsp;&emsp; </strong> X Street, House Number Z, XYZ<br>
+			<p><strong> Mobile Number: &nbsp;&nbsp;&nbsp;</strong> 123456789<br>
+			<p><strong> Email Address: &nbsp;&nbsp;&nbsp;&ensp;</strong>
+			<a href="l164202@lhr.nu.edu.pk"><em>l164202@lhr.nu.edu.pk</em></a><br>
+		  </div>
+	  <div class="container">
+	  	<img src="data:image/png;base64,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" alt="Profile" class="image">
+	  	  <div class="overlay">
+		<div class="profile">
+			  <h3><u> PROFILE</u></h3>
+			  <p><a href="#" class="underlined underline--thin">I am a fresh out of university coder with experience in internships in companies such as ABC and PXY Corp. My work there was associated mostly with web devolepment.<br>
+			     I have also attended seminars on the usefulness of temawork and have a positive and proactive feeling and attitude towards teamwork.<br> I hope to learn more in order to become much more efficient in my job.</a></p>
+			</div>
+		</div>
 	</div>
-	<div id="Personal Information">
-	  <h3><u> PERSONAL INFORMATION</u> </h3>
-	  <img src="https://vignette.wikia.nocookie.net/ofibty/images/5/56/Insert-Photo-Here.jpg/revision/latest?cb=20130607022022" hspace=20 height=250>
-	  <ul style="list-style : none;">
-	    <li><strong> Name: &emsp; &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &emsp;&emsp; </strong> Muhammad Farhan Atif</li>
-		<li><strong> Date of Birth: &nbsp;&nbsp;&nbsp; &emsp;  </strong> 17 December 1998</li>
-		<li><strong> Address: &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp; &emsp;&emsp; </strong> X Street, House Number Z, XYZ</li>
-		<li><strong> Mobile Number: &nbsp;&nbsp;&nbsp;</strong> 123456789</li>
-		<li><strong> Email Address: &nbsp;&nbsp;&nbsp;&ensp;</strong>
-		<a href="l164202@lhr.nu.edu.pk"><em>l164202@lhr.nu.edu.pk</em></a></li>
-		</ul>
+	<div class="container">
+	<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTeR0Iar974NWFFyi_UkxSOsCj2moN7yiurKTpPqdi7Q_PNA2Bq" alt="skills" class="image">
+	  	  <div class="overlay">
+		<div class="skills">
+			
+			  <h3><u> SKILLS</u></h3>
+			  <ul>
+			    <li>I am proficient in HTML,CSS,PHP and ASP.NET.</li>
+				<li>I also have done work in C,C++,Java,Javascript and Python.</li>
+				<li>Also I have assisssted in the development of a game using Unity Developer and Unreal Engine 4.</li>
+			  </ul>
+			</div>
+		</div>
 	</div>
-	<div id="profile">
-	  <h3><u> PROFILE</u></h3>
-	  <p>I am a fresh out of university coder with experience in internships in companies such as ABC and PXY Corp. My work there was associated mostly with web devolepment.<br>
-	     I have also attended seminars on the usefulness of temawork and have a positive and proactive feeling and attitude towards teamwork.<br> I hope to learn more in order to become much more efficient in my job.</p>
+	<div class="container">
+		<img src="https://east.education/wp-content/uploads/2016/09/primary-education-2.jpg" alt="education" class="image">
+	  	  <div class="overlay">
+		<div class="education">
+			  <h3><u>EDUCATION</u></h3>
+			  <ul>
+			   <li>2016-Present &emsp;&emsp;&emsp; Currently doing Bachelors in Computer Sciences(Hons.) from FAST-NUCES University.</li>
+			   <li>2016 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Completed college from Punjab College with 82% marks in Intermediate Examination Exams.</li>
+			   <li>2014 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Completed High School from Defence Public School for Boys with 85% marks in Matricualtion Board Exam.</li>
+			</ul>
+			</div>
+		</div>
 	</div>
-	<div id="skills">
-	  <h3><u> SKILLS</u></h3>
-	  <ul>
-	    <li>I am proficient in HTML,CSS,PHP and ASP.NET.</li>
-		<li>I also have done work in C,C++,Java,Javascript and Python.</li>
-		<li>Also I have assisssted in the development of a game using Unity Developer and Unreal Engine 4.</li>
-	  </ul>
-	</div>
-	<div id="education">
-	  <h3><u>EDUCATION</u></h3>
-	  <ul>
-	   <li>2016-Present &emsp;&emsp;&emsp; Currently doing Bachelors in Computer Sciences(Hons.) from FAST-NUCES University.</li>
-	   <li>2016 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp; Completed college from Punjab College with 82% marks in Intermediate Examination Exams.</li>
-	   <li>2014 &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;Completed High School from Defence Public School for Boys with 85% marks in Matricualtion Board Exam.</li>
-	</div>
-	<div>
-	  <h3><u>HOBBIES/ EXTRACURRICULAR ACTIVITIES</u></h3>
-	  <p style="font-size:17px">I have a number of hobbies </p>
-	  <ol style="font-size:17px">
-	  <li>Reading </li>
-	  <li>Sports </li>
-	  <li>Poetry </li>
-	  <li>Drawing </li>
-	  </ol>
-	  <p> Here is an example of my poetic adventures</p>
-	  <h4 align=center> This Thing They Call Death </h4>
-	  <p align=center> It follows you everywhere<br>
-	  It's fixed after your first breath<br>
-	  Nowhere is safe for it is there<br>
-	  This thing that they call death</p>
-	  <p align=center> It goes from door to door<br>
-	  As if it's selling meth<br>
-	  It'll lure you out to kill some more<br>
-	  This thing they call death</p>
-	  <p align=center> It takes away your loved<br>
-	  It can't be stopped by one or all<br>
-	  It'll creep into your bath<br>
-	  And kill you before you fall</p>
-	  <p align=center> The biggest lie that ever existed <br>
-	  That couples say all the time<br>
-	  We'll love each other till <br>
-	  We are seperated by this thing they call death</p>
-	  <p align=center> It will and has always come for you <br>
-	  You can't hide your body nor your breath <br>
-	  You will fall in a deep sleep <br>
-	  Thanks to this thing they call death</p>
-	</div>
-	
-  </body>
-	
-  
-</html>
+	<div class="container">
+		<img src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQQnWZcEhzyfM4uWwVRhnlGYwk1jJbvolxgUTS1qW1kK-gLkGQRsQ" alt="hobbies" class="image">
+	  	  <div class="overlay">
+			<div class="hobbies">
+			  <h3><u>HOBBIES</u></h3>
+			  <p style="font-size:17px">I have a number of hobbies </p>
+			  <ol style="font-size:17px">
+			  <li>Reading </li>
+			  <li>Sports </li>
+			  <li>Poetry </li>
+			  <li>Drawing </li>
+			  </ol>
+			  <p> Occasionally I write poems in both urdu and english language. I have also tried my hand in punjabi language.</p>
+			</div>
+			</div>
+		</div>
+	  </body>
+		
+	  <!-- Text animation from https://codemyui.com/marker-pen-effect-on-text-animation/ --> 
+	</html>
